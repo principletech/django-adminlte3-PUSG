@@ -3,7 +3,7 @@
 
 {% block header_dropdowns %}
 {% block user_info %}
-            {% if request.user.is_authenticated %}
+            {% if request.user.is_authenticated %} 
             <li class="nav-item dropdown user-menu">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
                   <img src="{%avatar_url 128 %}" class="user-image img-circle elevation-2" alt="User Image">

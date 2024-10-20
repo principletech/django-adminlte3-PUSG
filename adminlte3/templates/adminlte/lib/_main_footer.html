@@ -7,12 +7,9 @@
 
     {% block footer_left %}
     {% block legal %}
-    <strong>Copyright &copy; {% now "Y" %}{% if not site %}.{% endif %}
-        {% if site %}
-            <a href="http://{{ site.domain }}">{{ site.name }}</a>
-        {% endif %}
-    </strong> All rights
-    reserved.
+    <strong>Copyright &copy; {% now "Y" %}
+        <a href="https://pradauzodimma.com">Prada Uzodimma</a>
+    </strong> All rights reserved.
     {% endblock %}
     {% endblock %}
 </footer>
